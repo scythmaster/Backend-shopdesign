@@ -1,4 +1,4 @@
-import logger from './logger';
+import logger from '../logger/logger';
 
 export function LogFunctionCall() {
   return function (target: any, propertyKey?: any, descriptor?: PropertyDescriptor) {

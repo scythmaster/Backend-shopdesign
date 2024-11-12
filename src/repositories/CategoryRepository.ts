@@ -1,7 +1,6 @@
 import { Category, ICategory } from "../models/category";
-import { BaseRepository } from "./BaseRepository";
 
-export class CategoryRepository extends BaseRepository<ICategory>{
+export class CategoryRepository {
     // findById(id: string): Promise<ICategory | null> {
     //     throw new Error("Method not implemented.");
     // }
